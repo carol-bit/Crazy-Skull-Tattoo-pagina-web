@@ -1,0 +1,204 @@
+
+body {
+background-color: #000000;
+}
+
+header {
+height: 450px;
+margin-bottom: 1em;
+}
+
+.container {
+height: 450px;
+}
+
+.container:hover {
+background:#363636;
+height: 450px;
+}
+
+#banner {
+width: 100%;
+height: 100%;
+opacity: 0.65;
+-moz-opacity: 0.65;
+filter: alpha(opacity=65);
+}
+
+#image {
+position: absolute;
+left: 250px;
+top: 135px; 
+width: 100%;
+height: 100%;
+opacity: 0.65;
+-moz-opacity: 0.65;
+filter: alpha(opacity=65);
+}
+
+#texto {
+position: absolute;
+font-size: 20px;
+left: 190px;
+top: 135px;
+color: #ffffff;
+text-align: center;
+font-family:  OCR A Std, monospace;
+}
+
+.titulo-principal {
+position: initial;
+font-size: 50px;
+top: 110px;
+right: 200;
+color:#FFFFFF;
+text-shadow:
+    0px 0px 10px #00FFFF,
+    0px 0px 10px #00FFFF,
+    0px 0px 10px #FFFFFF,
+    0px 0px 10px #FFFFFF 
+}
+
+.principal {
+background-color: rgba(36, 36, 36, 0.609);
+padding: 30px;
+opacity: 0.9;
+font-size: 15px;
+font-family:  OCR A Std, monospace;
+height: 200px;
+}
+
+.principal:hover {
+position: static;
+background:#363636;
+}
+
+p {
+font-size: 20px;
+text-align: center;
+color: #ffffff;
+line-height: 1.5;
+}
+
+p:hover {
+color:#FFFFFF;
+text-shadow:
+    0px 0px 10px #00FFFF,
+    0px 0px 10px #00FFFF,
+    0px 0px 10px #FFFFFF,
+    0px 0px 10px #FFFFFF 
+}
+
+.itens {
+font-style: italic;
+color: #ffffff;
+
+}
+
+.beneficios {
+background: #000000;
+padding: 20px;
+margin: 10px;
+font-family:  OCR A Std, monospace;
+}
+
+h2 {
+margin: 10px;
+font-size: 25px;
+text-align: center;
+font-family:  OCR A Std, monospace;
+color:#FFFFFF;
+text-shadow:
+    0px 0px 10px #00FFFF,
+    0px 0px 10px #00FFFF,
+    0px 0px 10px #FFFFFF,
+    0px 0px 10px #FFFFFF 
+}
+
+h2:hover {
+color:#FFFFFF;
+text-shadow:
+    0px 0px 10px #00FFFF,
+    0px 0px 10px #00FFFF,
+    0px 0px 10px #FFFFFF,
+    0px 0px 10px #FFFFFF,
+    0px 0px 10px #FFFFFF,
+    0px 0px 10px #FFFFFF 
+
+}
+
+ul {
+display: inline-block;
+vertical-align: top;
+width: 20%;
+margin-right: 15%;
+
+}
+
+.imagembeneficios {
+width: 40%;
+position: absolute;
+right: 50px;
+}
+
+.beneficios h3 {
+text-align: center;
+color: #ffffff;
+font-family:  OCR A Std, monospace;
+font-size: 25px;
+}
+
+.beneficios h3:hover{
+color:#FFFFFF;
+    text-shadow:
+        0px 0px 10px #00FFFF,
+        0px 0px 10px #00FFFF,
+        0px 0px 10px #FFFFFF,
+        0px 0px 10px #FFFFFF 
+}
+
+.bene {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+h1 {
+color: #ffffff;
+text-align: center;
+font-family:  OCR A Std, monospace;
+}
+
+ul li {
+text-align: center;
+color: #ffffff;
+font-size: 20px;
+line-height: 2;
+}
+
+ul li:hover {
+
+color:#FFFFFF;
+text-shadow:
+    0px 0px 10px #00FFFF,
+    0px 0px 10px #00FFFF,
+    0px 0px 10px #FFFFFF,
+    0px 0px 10px #FFFFFF 
+}
+
+.faleconosco p {
+font-size: 12px;
+text-align: initial;
+font-family:  OCR A Std, monospace;
+}
+
+.faleconosco h3 {
+text-align: initial;
+font-family:  OCR A Std, monospace;
+}
+
+.contac {
+    text-align: justify;
+    font-size: 18px;
+}
+
