@@ -1,204 +1,194 @@
+header {
+    background: #000000;
+    width: 1200px;
+    height: 400px;
+}
 
 body {
-background-color: #000000;
+    background: #B5B5B5;
 }
 
-header {
-height: 450px;
-margin-bottom: 1em;
+main {
+    width:940px;
+    margin: 0 auto;
 }
 
-.container {
-height: 450px;
+form {
+    margin: 40px;
+}
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
 }
 
-.container:hover {
-background:#363636;
-height: 450px;
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
 
-#banner {
-width: 100%;
-height: 100%;
-opacity: 0.65;
--moz-opacity: 0.65;
-filter: alpha(opacity=65);
+
+/*.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
-
-#image {
-position: absolute;
-left: 250px;
-top: 135px; 
-width: 100%;
-height: 100%;
-opacity: 0.65;
--moz-opacity: 0.65;
-filter: alpha(opacity=65);
-}
-
-#texto {
-position: absolute;
-font-size: 20px;
-left: 190px;
-top: 135px;
-color: #ffffff;
-text-align: center;
-font-family:  OCR A Std, monospace;
-}
-
-.titulo-principal {
-position: initial;
-font-size: 50px;
-top: 110px;
-right: 200;
-color:#FFFFFF;
-text-shadow:
-    0px 0px 10px #00FFFF,
-    0px 0px 10px #00FFFF,
-    0px 0px 10px #FFFFFF,
-    0px 0px 10px #FFFFFF 
-}
-
-.principal {
-background-color: rgba(36, 36, 36, 0.609);
-padding: 30px;
-opacity: 0.9;
-font-size: 15px;
-font-family:  OCR A Std, monospace;
-height: 200px;
-}
-
-.principal:hover {
-position: static;
-background:#363636;
-}
-
-p {
-font-size: 20px;
-text-align: center;
-color: #ffffff;
-line-height: 1.5;
-}
-
-p:hover {
-color:#FFFFFF;
-text-shadow:
-    0px 0px 10px #00FFFF,
-    0px 0px 10px #00FFFF,
-    0px 0px 10px #FFFFFF,
-    0px 0px 10px #FFFFFF 
-}
-
-.itens {
-font-style: italic;
-color: #ffffff;
-
-}
-
-.beneficios {
-background: #000000;
-padding: 20px;
-margin: 10px;
-font-family:  OCR A Std, monospace;
-}
-
-h2 {
-margin: 10px;
-font-size: 25px;
-text-align: center;
-font-family:  OCR A Std, monospace;
-color:#FFFFFF;
-text-shadow:
-    0px 0px 10px #00FFFF,
-    0px 0px 10px #00FFFF,
-    0px 0px 10px #FFFFFF,
-    0px 0px 10px #FFFFFF 
-}
-
-h2:hover {
-color:#FFFFFF;
-text-shadow:
-    0px 0px 10px #00FFFF,
-    0px 0px 10px #00FFFF,
-    0px 0px 10px #FFFFFF,
-    0px 0px 10px #FFFFFF,
-    0px 0px 10px #FFFFFF,
-    0px 0px 10px #FFFFFF 
-
-}
-
-ul {
-display: inline-block;
-vertical-align: top;
-width: 20%;
-margin-right: 15%;
-
-}
-
-.imagembeneficios {
-width: 40%;
-position: absolute;
-right: 50px;
-}
-
-.beneficios h3 {
-text-align: center;
-color: #ffffff;
-font-family:  OCR A Std, monospace;
-font-size: 25px;
-}
-
-.beneficios h3:hover{
-color:#FFFFFF;
+.caixa */ header p {
+    display: inline;
+    position: absolute;
+    top: 25px;
+    left: 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: 26px;
+    text-decoration: none;
+    font-size: 25px;  
+    /*aplicar neon*/
+    color:#FFFFFF;
     text-shadow:
-        0px 0px 10px #00FFFF,
-        0px 0px 10px #00FFFF,
-        0px 0px 10px #FFFFFF,
-        0px 0px 10px #FFFFFF 
+       0px 0px 10px #00FFFF,
+       0px 0px 10px #00FFFF,
+       0px 0px 10px #FFFFFF,
+       0px 0px 10px #FFFFFF  
+}
+.tat {
+    position: absolute; 
+	right: 0px;
+    top: 0px; 
+    width: 35%;
+    height:66%;
+    opacity: 0.60;
 }
 
-.bene {
-    margin-bottom: 30px;
-    margin-top: 20px;
+.tat:hover { position: absolute;
+    transition: linear;
+    opacity: 100;
 }
 
-
-h1 {
-color: #ffffff;
-text-align: center;
-font-family:  OCR A Std, monospace;
+#logo {
+    position: relative;
+    top: 50px;
+    width: 25%;
+    height: 30%;
+}
+nav {
+    position: relative;
+    top: 100px;
+    left: 15px;
+    bottom: 0px;
+}
+nav li{
+    display: inline ;
+    margin: 0 0 0 15px;
+}
+nav a:hover {
+    font-size: 22px;
 }
 
-ul li {
-text-align: center;
-color: #ffffff;
-font-size: 20px;
-line-height: 2;
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: 22px;
+    text-decoration: none;
+    font-size: 20px;
+   
 }
 
-ul li:hover {
-
-color:#FFFFFF;
-text-shadow:
-    0px 0px 10px #00FFFF,
-    0px 0px 10px #00FFFF,
-    0px 0px 10px #FFFFFF,
-    0px 0px 10px #FFFFFF 
+nav a:hover {
+    text-decoration: underline;
+    color:#FFFFFF;
+    text-shadow:
+       0px 0px 10px #00FFFF,
+       0px 0px 10px #00FFFF,
+       0px 0px 10px #FFFFFF,
+       0px 0px 10px #FFFFFF;
 }
 
-.faleconosco p {
-font-size: 12px;
-text-align: initial;
-font-family:  OCR A Std, monospace;
+.produtos {
+    width: 1050px;
+    
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos:hover {
+    background: #4F4F4F;  
 }
 
-.faleconosco h3 {
-text-align: initial;
-font-family:  OCR A Std, monospace;
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid 3px #000000;
+    border-radius: 10px;
+}
+.produtos li {
+    color: #ffffff;
+}
+.produtos li #fine {
+    width: 250px;
+    height: 250px;
+}
+.produtos li #kratos {
+    width: 250px;
+    height: 250px;
+}
+.produtos li #free {
+    width: 250px;
+    height: 250px;
+}
+.produtos li:hover {
+    color:#FFFFFF;
+    text-shadow:
+       0px 0px 10px #00FFFF,
+       0px 0px 10px #00FFFF,
+       0px 0px 10px #FFFFFF,
+       0px 0px 10px #FFFFFF  
 }
 
-.contac {
-    text-align: justify;
+.produtos li:active {
+    border-color: #ffffff;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+    color:  #ffffff;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-size: bold;
+}
+
+.produto-descricao {
     font-size: 18px;
 }
 
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+footer {
+    text-align: center;
+    background: url("image/bg.jpg");
+    padding: 40px 0;
+}
+
+.rodape-texto {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#rodape {
+    width: 200px;
+    height: 200px;
+}
